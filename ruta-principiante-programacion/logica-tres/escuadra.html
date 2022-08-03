@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escuadra</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    
+    <canvas width="500" height="500"></canvas>
+
+    <script>
+
+        let canvas = document.querySelector("canvas");
+        let ctx = canvas.getContext("2d");
+
+        ctx.fillStyle = "black";
+        ctx.beginPath();
+
+        ctx.moveTo(50, 50);
+        ctx.lineTo(50, 400);
+        ctx.lineTo(400, 400);
+        ctx.fill();
+
+        ctx.fillStyle = 'white';
+        ctx.beginPath();
+        ctx.moveTo(100, 175);
+        ctx.lineTo(100, 350);
+        ctx.lineTo(275, 350);
+        ctx.fill();
+
+    </script>
+
+</body>
+</html>

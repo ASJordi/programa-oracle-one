@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Dinamico</title>
+</head>
+<body>
+
+    <canvas id="canvas" width="500" height="500"></canvas>
+
+    <script>
+
+        function dibujarCuadrado(x, y, ancho, alto, color, borde) {
+            
+            var canvas = document.getElementById('canvas');
+            if(canvas.getContext){
+                var ctx = canvas.getContext('2d');
+                ctx.fillStyle = color;
+                ctx.strokeStyle = 'black';
+                ctx.fillRect(x, y, ancho, alto);
+                if(borde){
+                    ctx.strokeRect(x, y, ancho, alto);
+                }
+            }
+            else{
+                alert('El navegador no soporta canvas');
+            }
+        }
+
+        let cont = 0;
+        while(cont < 500){
+            dibujarCuadrado(cont, 0, 100, 100, 'green', true);
+            cont += 100;
+        }
+
+        for (let i = 0; i < 500; i+=100) {
+            dibujarCuadrado(i, 100, 100, 100, 'green', true);
+        }
+
+    </script>
+
+</body>
+</html>

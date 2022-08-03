@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circulo Canvas</title>
+
+    <style>
+        #canvas{
+            border: 1px solid black;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <canvas id="canvas" width="600" height="600"></canvas>
+
+    <script>
+
+        function dibujarCirculo(x, y, radio, color, borde) {
+            
+            var canvas = document.getElementById('canvas');
+            if(canvas.getContext){
+                var ctx = canvas.getContext('2d');
+                ctx.fillStyle = color;
+                ctx.strokeStyle = 'black';
+                ctx.beginPath();
+                ctx.arc(x, y, radio, 0, Math.PI * 2);
+                ctx.fill();
+                if(borde){
+                    ctx.stroke();
+                }
+            }
+            else{
+                alert('El navegador no soporta canvas');
+            }
+        }
+
+        dibujarCirculo(300, 300, 50, 'red', false);
+        dibujarCirculo(300, 200, 50, 'yellow', false);
+        dibujarCirculo(300, 400, 50, 'blue', false);
+        dibujarCirculo(400, 300, 50, 'black', false);
+        dibujarCirculo(200, 300, 50, 'orange', false);
+
+    </script>
+
+</body>
+</html>

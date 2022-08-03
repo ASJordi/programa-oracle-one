@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dibujo Automatico</title>
+</head>
+<body>
+    
+    <canvas id="canvas" width="900" height="600"></canvas>
+
+    <script>
+
+        let canvas = document.getElementById('canvas');
+        let ctx = canvas.getContext('2d');
+        ctx.fillStyle = 'red';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        
+
+        function crearCircunferencia(x, y, radio, color) {
+            ctx.fillStyle = color;
+            ctx.beginPath();
+            ctx.arc(x, y, radio, 0, 2 * Math.PI);
+            ctx.fill();
+        }
+
+        function limpiarPantalla() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+        }
+            
+        let x = 0;
+        let retorno = false;
+
+        function crearAnimacion(){
+            limpiarPantalla();
+            if(x>=canvas.width){
+                retorno = true;
+            }
+            else if(x<=0){
+                retorno = false;
+            }
+            if(retorno){
+                x--;
+            }
+            else{
+                x++;
+            }
+            crearCircunferencia(x, 20, 10, 'red');
+        }
+
+        setInterval(crearAnimacion, 1);
+
+
+    </script>
+
+</body>
+</html>

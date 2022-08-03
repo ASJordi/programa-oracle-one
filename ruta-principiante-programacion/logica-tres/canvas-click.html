@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Click</title>
+</head>
+
+<body>
+
+    <canvas id="canvas" width="600" height="600"></canvas>
+
+    <script>
+
+        function obtenerPosicion(evento) {
+            let x = evento.pageX - canvas.offsetLeft;
+            let y = evento.pageY - canvas.offsetTop;
+            alert('Usted hizo Click en el canvas' + '\n' + 'X: ' + x + '\n' + 'Y: ' + y);
+        }
+
+        function dibujarCirculo(evento) {
+
+            let x = evento.pageX - canvas.offsetLeft;
+            let y = evento.pageY - canvas.offsetTop;
+            if (canvas.getContext) {
+                var ctx = canvas.getContext('2d');
+                ctx.fillStyle = 'red';
+                ctx.beginPath();
+                ctx.arc(x, y, 10, 0, Math.PI * 2);
+                ctx.fill();
+            }
+            else {
+                alert('El navegador no soporta canvas');
+            }
+        }
+
+        var canvas = document.getElementById('canvas');
+        var ctx = canvas.getContext('2d');  
+        ctx.fillStyle = 'grey';
+        ctx.fillRect(0, 0, 600, 600);
+
+        canvas.addEventListener('click', dibujarCirculo);
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Tiro Al Blanco</title>
+</head>
+
+<body>
+
+    <canvas id="canvas" width="600" height="600"></canvas>
+
+    <script>
+
+        let canvas = document.getElementById('canvas');
+        let ctx = canvas.getContext('2d');
+        ctx.fillStyle = 'white';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        let x = 0;
+        let retorno = false;
+        let radio = 10
+        let xRandom;
+        let yRandom;
+
+        function crearCircunferencia(x, y, radio, color) {
+            ctx.fillStyle = color;
+            ctx.beginPath();
+            ctx.arc(x, y, radio, 0, 2 * Math.PI);
+            ctx.fill();
+        }
+
+        function limpiarPantalla() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+        }
+
+        function crearBlanco(x, y) {
+            crearCircunferencia(x, y, radio + 20, 'red');
+            crearCircunferencia(x, y, radio + 10, 'white');
+            crearCircunferencia(x, y, radio, 'red');
+        }
+
+        function crearAnimacion() {
+            limpiarPantalla();
+            xRandom = Math.floor(Math.random() * (canvas.width - 10));
+            yRandom = Math.floor(Math.random() * (canvas.height - 10));
+
+            crearBlanco(xRandom, yRandom);
+            x++;
+        }
+
+        setInterval(crearAnimacion, 2000);
+
+        canvas.onclick = function(e) {
+            let x = e.pageX - canvas.offsetLeft;
+            let y = e.pageY - canvas.offsetTop;
+            if((x < xRandom + radio) && 
+                (x > xRandom - radio) && 
+                (y < yRandom + radio) && 
+                (y > yRandom - radio)){
+                alert('Ganaste');
+            }
+        };
+        
+
+        
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grafico de Barras</title>
+
+    <style>
+        #canvas {
+            border: 1px solid black;
+        }
+    </style>
+
+</head>
+<body>
+
+    <canvas id="canvas" width="600" height="600"></canvas>
+
+
+    <script>
+
+        function dibujarBarra(x, y, ancho, alto, color, borde) {
+
+            var canvas = document.getElementById('canvas');
+            if (canvas.getContext) {
+                var ctx = canvas.getContext('2d');
+                ctx.fillStyle = color;
+                ctx.strokeStyle = 'black';
+                ctx.fillRect(x, y, ancho, alto);
+                if (borde) {
+                    ctx.strokeRect(x, y, ancho, alto);
+                }
+            }
+            else {
+                alert('El navegador no soporta canvas');
+            }
+        }
+
+        function escribirTexto(x, y, texto, color) {
+            var canvas = document.getElementById('canvas');
+            if (canvas.getContext) {
+                let ctx = canvas.getContext('2d');
+                ctx.font = "15px Arial";
+                ctx.fillStyle = color;
+                ctx.fillText(texto, x, y);
+            }
+            else {
+                alert('El navegador no soporta canvas');
+            }
+        }
+
+        function graficarBarras(x, y, ancho, alto, color, borde) {
+            let sumaAlturas = 0;
+            for (let i = 0; i < alto.length; i++) {
+                var altura = alto[i];
+                dibujarBarra(x, y + sumaAlturas, ancho, alto[i], color[i], true);
+                // escribirTexto(160, 50 + (i * 25), nav[i], color[i]);
+                sumaAlturas += altura;
+            }
+
+        }
+
+        let serie2009 = [6, 47, 41, 3, 3];
+        let serie2019 = [81, 9, 3, 3, 4];
+        let navegadores = ['Chrome', 'Firefox', 'Edge', 'Safari', 'Otros']
+        let colores = ["blue", "green", "yellow", "red", "gray"];
+
+        escribirTexto(200, 20, 'Popularidad de Navegadores', 'black');
+        escribirTexto(75, 60, '2009', 'black');
+        escribirTexto(225, 60, '2019', 'black');
+        
+
+        graficarBarras(50, 70, 100, serie2009, colores, true);
+        graficarBarras(200, 70, 100, serie2019, colores, true);
+
+
+
+    </script>
+    
+</body>
+</html>
