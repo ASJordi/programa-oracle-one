@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones</title>
+</head>
+<body>
+    <h1>Funciones JS</h1>
+
+    <script>
+
+        function saltarLinea()
+        {
+            document.write("<br><br>");
+        }
+
+        function imprimir(cadena)
+        {
+            if(cadena != null)
+            {
+                document.write(cadena);
+                saltarLinea();
+            }
+            else
+            {
+                document.write("No se puede imprimir");
+                saltarLinea();
+            }
+        }
+
+        function calcularDiferenciaEdad(edadUno, edadDos)
+        {
+            var diferencia = edadUno - edadDos;
+            document.write("La diferencia de edad es: " + diferencia + " años");
+            saltarLinea();
+        }
+
+        document.write("Ejemplo de funcion");
+        saltarLinea();
+        imprimir("Funcion para imprimir una cadena");
+        imprimir("Hola mundo");
+        calcularDiferenciaEdad(23, 14);
+
+    </script>
+
+</body>
+</html>

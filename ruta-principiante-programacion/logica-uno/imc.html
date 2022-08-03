@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+</head>
+<body>
+    <h1>Calculadora de IMC</h1>
+
+    <script>
+
+        function calcularIMC(peso, altura)
+        {
+            var imc = Math.round(peso / (altura * altura));
+            return imc;
+        }
+
+        function calcularPromedioIMC(imc1, imc2)
+        {
+            var promedio = Math.round((imc1 + imc2) / 2);
+            return promedio;
+        }
+
+        document.write("Su IMC es: " + calcularIMC(109, 1.90));
+        document.write("<br>");
+        document.write("El promedio de los IMC es: " + calcularPromedioIMC(calcularIMC(109, 1.90), calcularIMC(109, 1.90)));
+
+        // Interactue con el usuario para calcular el IMC de una persona.
+        var peso = prompt("Ingrese su peso");
+        var altura = prompt("Ingrese su altura");
+        document.write("<br>");109
+        document.write("Su IMC es: " + calcularIMC(peso, altura));
+
+    </script>
+
+</body>
+</html>

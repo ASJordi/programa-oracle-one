@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+</head>
+<body>
+    
+    <script>
+
+        var year = new Date().getFullYear();
+        var edadJuan = year - 1999;
+        var edadPedro = year - 1995;
+        var avgEdad = Math.round((edadJuan + edadPedro) / 2);
+        var saltoLinea = "<br><br>";
+        document.write("Juan tiene: " + edadJuan + " años");
+        document.write(saltoLinea);
+        document.write("Pedro tiene: " + edadPedro + " años");
+        document.write(saltoLinea);
+        document.write("El promedio de las edades de Juan y pedro es: " + avgEdad);
+        document.write(saltolinea);
+        document.write(saltoLinea);
+
+    </script>
+
+</body>
+</html>

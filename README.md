@@ -2,29 +2,19 @@
 <p align="center">Repositorio de ejercicios y proyectos realizados</p>
 <hr>
 <h2>Contenido</h2>
-<!-- <ol>
-  <li>Ítem 1
+<ol>
+  <li>Ruta Principiante Programación
     <ol>
-      <li>Ítem 1 de sublista
+      <li>Lógica de Programación I
         <ol>
-          <li>Ítem 1 de sub-sublista</li>
-          <li>Ítem 2 de sub-sublista</li>
+          <li><a href="/ruta-principiante-programacion/logica-uno/introduccion-p1.html">Introducción parte I</a></li>
+          <li><a href="/ruta-principiante-programacion/logica-uno/introduccion-p2.html">Introducción parte II</a></li>
+          <li><a href="/ruta-principiante-programacion/logica-uno/variables.html">Variables</a></li>
+          <li><a href="/ruta-principiante-programacion/logica-uno/calculo_consumo.html">Ejercicio: Consumo Combustible</a></li>
+          <li><a href="/ruta-principiante-programacion/logica-uno/funciones.html">Funciones</a></li>
+          <li><a href="/ruta-principiante-programacion/logica-uno/imc.html">Ejercicio: Calculo IMC</a></li>
         </ol>
       </li>
-      <li>Ítem 2 de sublista
-        <ol>
-          <li>Ítem 1 de sub-sublista</li>
-          <li>Ítem 2 de sub-sublista</li>
-        </ol>
-      </li>
-      <li>Ítem 3 de sublista</li>
-      <li>Ítem 4 de sublista</li>
     </ol>
   </li>
-  <li>Ítem 2
-    <ol>
-      <li>Ítem 1 de sublista</li>
-      <li>Ítem 2 de sublista</li>
-    </ol>
-  </li>
-</ol> -->
+</ol>
