@@ -1,53 +1,50 @@
 <h1 align="center">Programa ONE – Oracle Next Education</h1>
 <p align="center">Repositorio de ejercicios y proyectos realizados</p>
 <hr>
-<h2>Rutas de Aprendizaje</h2>
-<ol>
-  <li>Ruta Principiante Programación
-    <ol>
-      <li>Lógica de Programación I
-        <ol>
-          <li><a href="/ruta-principiante-programacion/logica-uno/introduccion-p1.html">Introducción parte I</a></li>
-          <li><a href="/ruta-principiante-programacion/logica-uno/introduccion-p2.html">Introducción parte II</a></li>
-          <li><a href="/ruta-principiante-programacion/logica-uno/variables.html">Variables</a></li>
-          <li><a href="/ruta-principiante-programacion/logica-uno/calculo_consumo.html">Ejercicio: Consumo Combustible</a></li>
-          <li><a href="/ruta-principiante-programacion/logica-uno/funciones.html">Funciones</a></li>
-          <li><a href="/ruta-principiante-programacion/logica-uno/imc.html">Ejercicio: Calculo IMC</a></li>
-        </ol>
-      </li>
-    </ol>
-    <ol>
-      <li>Lógica de Programación II
-        <ol>
-          <li><a href="/ruta-principiante-programacion/logica-dos/imc.html">Ejercicio: Calculo IMC</a></li>
-          <li><a href="/ruta-principiante-programacion/logica-dos/futbol.html">Ejercicio: Calculo Futbol</a></li>
-          <li><a href="/ruta-principiante-programacion/logica-dos/mundial.html">Ejercicio: Mundiales de Futbol</a></li>
-          <li><a href="/ruta-principiante-programacion/logica-dos/tablas-multiplicar.html">Ejercicio: Tablas de Multiplicar</a></li>
-          <li><a href="/ruta-principiante-programacion/logica-dos/promedio.html">Ejercicio: Promedio</a></li>
-          <li><a href="/ruta-principiante-programacion/logica-dos/numeros-pares.html">Ejercicio: Numeros Pares</a></li>
-          <li><a href="/ruta-principiante-programacion/logica-dos/juego_adivina.html">Ejercicio: Adivinar Número Simple</a></li>
-          <li><a href="/ruta-principiante-programacion/logica-dos/estrella.html">Ejercicio: Figura con Iteraciones</a></li>
-          <li><a href="/ruta-principiante-programacion/logica-dos/simulacion-login.html">Ejercicio: Simulación de Login</a></li>
-          <li><a href="/ruta-principiante-programacion/logica-dos/juego-secreto3.html">Ejercicio: Adivinar Número</a></li>
-        </ol>
-      </li>
-    </ol>
-    <ol>
-      <li>Lógica de Programación III
-        <ol>
-          <li><a href="/ruta-principiante-programacion/logica-tres/bandera.html">Ejercicio: Canvas Simple</a></li>
-          <li><a href="/ruta-principiante-programacion/logica-tres/creeper.html">Ejercicio: Dibujo Creeper</a></li>
-          <li><a href="/ruta-principiante-programacion/logica-tres/escuadra.html">Ejercicio: Dibujo Triangulo</a></li>
-          <li><a href="/ruta-principiante-programacion/logica-tres/canvas.html">Ejercicio: Dibujo con Iteraciones</a></li>
-          <li><a href="/ruta-principiante-programacion/logica-tres/canvas-circulo.html">Ejercicio: Dibujo Circulos</a></li>
-          <li><a href="/ruta-principiante-programacion/logica-tres/grafica-barras.html">Ejercicio: Dibujo Grafica de Barras</a></li>
-          <li><a href="/ruta-principiante-programacion/logica-tres/canvas-click.html">Ejercicio: Dibujo con Clic Izquierdo</a></li>
-          <li><a href="/ruta-principiante-programacion/logica-tres/canvas-click-2.html">Ejercicio: Dibujo con Click Derecho</a></li>
-          <li><a href="/ruta-principiante-programacion/logica-tres/dibujar-automatico.html">Ejercicio: Dibujo Automático</a></li>
-          <li><a href="/ruta-principiante-programacion/logica-tres/juego-tiro-blanco.html">Ejercicio: Tiro al Blanco</a></li>
-          <li><a href="/ruta-principiante-programacion/logica-tres/dibujar-mouse/index.html">Ejercicio: Dibujo Pincel</a></li>
-        </ol>
-      </li>
-    </ol>
-  </li>
-</ol>
+<h3>Ruta Principiante de Programación I</h3>
+<details>
+  <summary>Lógica de Programación I</summary>
+  <ol>
+    <li><a href="/ruta-principiante-programacion/logica-uno/introduccion-p1.html">Introducción parte I</a></li>
+    <li><a href="/ruta-principiante-programacion/logica-uno/introduccion-p2.html">Introducción parte II</a></li>
+    <li><a href="/ruta-principiante-programacion/logica-uno/variables.html">Variables</a></li>
+    <li><a href="/ruta-principiante-programacion/logica-uno/calculo_consumo.html">Ejercicio: Consumo Combustible</a></li>
+    <li><a href="/ruta-principiante-programacion/logica-uno/funciones.html">Funciones</a></li>
+    <li><a href="/ruta-principiante-programacion/logica-uno/imc.html">Ejercicio: Calculo IMC</a></li>
+  </ol>
+</details>
+<details>
+  <summary>Lógica de Programación II</summary>
+  <ol>
+    <li><a href="/ruta-principiante-programacion/logica-dos/imc.html">Ejercicio: Calculo IMC</a></li>
+    <li><a href="/ruta-principiante-programacion/logica-dos/futbol.html">Ejercicio: Calculo Futbol</a></li>
+    <li><a href="/ruta-principiante-programacion/logica-dos/mundial.html">Ejercicio: Mundiales de Futbol</a></li>
+    <li><a href="/ruta-principiante-programacion/logica-dos/tablas-multiplicar.html">Ejercicio: Tablas de Multiplicar</a></li>
+    <li><a href="/ruta-principiante-programacion/logica-dos/promedio.html">Ejercicio: Promedio</a></li>
+    <li><a href="/ruta-principiante-programacion/logica-dos/numeros-pares.html">Ejercicio: Numeros Pares</a></li>
+    <li><a href="/ruta-principiante-programacion/logica-dos/juego_adivina.html">Ejercicio: Adivinar Número Simple</a></li>
+    <li><a href="/ruta-principiante-programacion/logica-dos/estrella.html">Ejercicio: Figura con Iteraciones</a></li>
+    <li><a href="/ruta-principiante-programacion/logica-dos/simulacion-login.html">Ejercicio: Simulación de Login</a></li>
+    <li><a href="/ruta-principiante-programacion/logica-dos/juego-secreto3.html">Ejercicio: Adivinar Número</a></li>
+  </ol>
+</details>
+<details>
+  <summary>Lógica de Programación III</summary>
+  <ol>
+    <li><a href="/ruta-principiante-programacion/logica-tres/bandera.html">Ejercicio: Canvas Simple</a></li>
+    <li><a href="/ruta-principiante-programacion/logica-tres/creeper.html">Ejercicio: Dibujo Creeper</a></li>
+    <li><a href="/ruta-principiante-programacion/logica-tres/escuadra.html">Ejercicio: Dibujo Triangulo</a></li>
+    <li><a href="/ruta-principiante-programacion/logica-tres/canvas.html">Ejercicio: Dibujo con Iteraciones</a></li>
+    <li><a href="/ruta-principiante-programacion/logica-tres/canvas-circulo.html">Ejercicio: Dibujo Circulos</a></li>
+    <li><a href="/ruta-principiante-programacion/logica-tres/grafica-barras.html">Ejercicio: Dibujo Grafica de Barras</a></li>
+    <li><a href="/ruta-principiante-programacion/logica-tres/canvas-click.html">Ejercicio: Dibujo con Clic Izquierdo</a></li>
+    <li><a href="/ruta-principiante-programacion/logica-tres/canvas-click-2.html">Ejercicio: Dibujo con Click Derecho</a></li>
+    <li><a href="/ruta-principiante-programacion/logica-tres/dibujar-automatico.html">Ejercicio: Dibujo Automático</a></li>
+    <li><a href="/ruta-principiante-programacion/logica-tres/juego-tiro-blanco.html">Ejercicio: Tiro al Blanco</a></li>
+    <li><a href="/ruta-principiante-programacion/logica-tres/dibujar-mouse/index.html">Ejercicio: Dibujo Pincel</a></li>
+  </ol>
+</details>
+
+
+
+
