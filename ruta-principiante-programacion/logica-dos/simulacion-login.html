@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <h1>Login</h1>
+
+    <script>
+        var user = "admin";
+        var password = "123";
+        var intentos = 0;
+
+        while(intentos < 3) {
+            var usuario = prompt("Ingrese su usuario");
+            var contrasena = prompt("Ingrese su contraseña");
+
+            if(usuario == user && contrasena == password) {
+                alert("Bienvenido");
+                break;
+            } else {
+                alert("Usuario o contraseña incorrectos");
+                intentos++;
+            }
+            if(intentos == 3) {
+                alert("Ha superado el número de intentos");
+            }
+        }
+
+
+    </script>
+
+</body>
+</html>

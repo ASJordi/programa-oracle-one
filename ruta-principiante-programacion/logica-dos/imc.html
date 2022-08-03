@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+</head>
+
+<body>
+    <h1>Calculadora de IMC</h1>
+
+    <script>
+
+        function calcularIMC(peso, altura) {
+            var imc = Math.round(peso / (altura * altura));
+            if (imc < 18.5) {
+                return "Peso inferior al normal";
+            } else if (imc >= 18.5 && imc <= 24.9) {
+                return "Peso normal";
+            } else if (imc >= 25 && imc <= 29.9) {
+                return "Sobrepeso";
+            } else if (imc >= 30 && imc <= 34.9) {
+                return "Obesidad grado I";
+            } else if (imc >= 35 && imc <= 39.9) {
+                return "Obesidad grado II";
+            } else {
+                return "Obesidad grado III";
+            }
+        }
+
+        // Interactue con el usuario para calcular el IMC de una persona.
+        var peso = prompt("Ingrese su peso");
+        var altura = prompt("Ingrese su altura");
+        document.write("<br>"); 
+        document.write("Su IMC indica: " + calcularIMC(peso, altura));
+
+
+    </script>
+
+</body>
+
+</html>

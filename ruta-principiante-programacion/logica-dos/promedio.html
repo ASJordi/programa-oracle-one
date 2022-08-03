@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio</title>
+</head>
+<body>
+    <h1>Calcular Promedio</h1>
+
+    <script>
+
+        var numMiembros = parseInt(prompt("Ingrese el numero de miembros: "));
+        var contador = 1;
+        var promedioEdad = 0;
+        var totalEdad = 0;
+        while(contador <= numMiembros){
+            var edades = parseInt(prompt("Ingrese la edad del miembro " + contador + ": "));
+            contador++;
+            totalEdad = totalEdad + edades;
+        }
+
+        promedioEdad = totalEdad / numMiembros;
+        document.write("El promedio de edad es: " + promedioEdad);
+
+    </script>
+
+</body>
+</html>

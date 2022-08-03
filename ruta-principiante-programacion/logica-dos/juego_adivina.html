@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Adivinar</title>
+</head>
+<body>
+    <h1>Juego de Adivinar</h1>
+
+    <script>
+        
+        var intentos = 3;
+        var contador = 1;
+        var numero = Math.round(Math.random() * 10);
+        // var numeroAdivinar = parseInt(prompt("Adivina el numero entre 0 y 10: "));
+
+        // if(numeroAdivinar == numero) {
+        //     document.write("<p>Has adivinado el numero!</p>");
+        // } else if(numeroAdivinar > numero) {
+        //     document.write("<p>El numero que ha ingresado es mayor que el numero secreto.</p>");
+        // } else {
+        //     document.write("<p>El numero que ha ingresado es menor que el numero secreto.</p>");
+        // }
+
+        while(contador <= intentos){
+            var numeroAdivinar = parseInt(prompt("Adivina el numero entre 0 y 10: "));
+            if(numeroAdivinar == numero) {
+                alert("Has adivinado el numero! en el intento " + contador);
+                break;
+            } else if(numeroAdivinar > numero) {
+                alert("El numero que ha ingresado es mayor que el numero secreto. Le quedan " + (intentos - contador) + " intentos.");
+            } else{
+                alert("El numero que ha ingresado es menor que el numero secreto. Le quedan " + (intentos - contador) + " intentos.");
+            }
+            if(contador == intentos) {
+                alert("Has perdido! El numero secreto era " + numero);
+            }
+            contador++;
+        }
+        
+    </script>
+
+</body>
+</html>
