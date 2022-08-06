@@ -1,0 +1,72 @@
+body
+{
+    background-color: #fff;
+    color: black;
+}
+
+header
+{
+
+}
+
+#titulo-principal
+{
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+p
+{
+    text-align: center;
+}
+
+p > em > strong
+{
+    color: #f5a702;
+}
+
+#mision
+{
+    font-size: 18px;
+}
+
+#cover
+{
+    width: 100%;
+}
+
+.principal
+{
+    background-color: #fff;
+    padding: 20px;
+}
+
+.diferenciales
+{
+    background-color: #f5a702;
+    padding: 30px;
+}
+
+.titulo-centrado
+{
+    text-align: center;
+}
+
+.items
+{
+    font-style: italic;
+    color: white;
+}
+
+ul
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagen-diferencial
+{
+    width: 50%;
+}

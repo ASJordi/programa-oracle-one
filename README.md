@@ -1,7 +1,7 @@
 <h1 align="center">Programa ONE – Oracle Next Education</h1>
 <p align="center">Repositorio de ejercicios y proyectos realizados</p>
 <hr>
-<h3>Ruta Principiante de Programación I</h3>
+<h3>Ruta Principiante de Programación</h3>
 <details>
   <summary>Lógica de Programación I</summary>
   <ol>
@@ -44,7 +44,27 @@
     <li><a href="/ruta-principiante-programacion/logica-tres/dibujar-mouse/index.html">Ejercicio: Dibujo Pincel</a></li>
   </ol>
 </details>
-
-
-
-
+<details>
+  <summary>HTML5 y CSS3 parte 1: Mi primera página web</summary>
+  <ol>
+    <li><a href="/ruta-principiante-programacion/html-css-uno/barberia">Web Barbería</a></li>
+  </ol>
+</details>
+<details>
+  <summary>HTML5 y CSS3 parte 2: Posicionamiento, listas y navegación</summary>
+  <ol>
+    <li><a href="/ruta-principiante-programacion/html-css-dos/barberia">Web Barbería</a></li>
+  </ol>
+</details>
+<details>
+  <summary>HTML5 y CSS3 parte 3: Trabajando con formularios y tablas</summary>
+  <ol>
+    <li><a href="/ruta-principiante-programacion/html-css-tres/barberia">Web Barbería</a></li>
+  </ol>
+</details>
+<details>
+  <summary>HTML5 y CSS3 parte 4: Avanzando en CSS</summary>
+  <ol>
+    <li><a href="/ruta-principiante-programacion/html-css-cuatro/barberia">Web Barbería</a></li>
+  </ol>
+</details>
