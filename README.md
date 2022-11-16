@@ -79,6 +79,12 @@
 <details>
   <summary>Flexbox: Posicione elementos en la pantalla</summary>
   <ol>
-    <li><a href="/ruta-frontend/flexbox">Flexbox: Posicione elementos en la pantalla</a></li>
+    <li><a href="/ruta-frontend/flexbox">Proyecto</a></li>
+  </ol>
+</details>
+<details>
+  <summary>CSS Grid: Simplificando layouts</summary>
+  <ol>
+    <li><a href="/ruta-frontend/css-grid-layout/alura-store">Proyecto</a></li>
   </ol>
 </details>
