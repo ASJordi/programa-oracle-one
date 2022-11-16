@@ -1,7 +1,7 @@
 <h1 align="center">Programa ONE – Oracle Next Education</h1>
 <p align="center">Repositorio de ejercicios y proyectos realizados</p>
 <hr>
-<h3>Ruta Principiante de Programación</h3>
+<h3><strong>Ruta Principiante de Programación</strong></h3>
 <details>
   <summary>Lógica de Programación I</summary>
   <ol>
@@ -72,5 +72,13 @@
   <summary>Git y GitHub: controle y comparta su código</summary>
   <ol>
     <li><a href="/ruta-principiante-programacion/git-github">Proyecto</a></li>
+  </ol>
+</details>
+<br>
+<h3><strong>Ruta FrontEnd</strong></h3>
+<details>
+  <summary>Flexbox: Posicione elementos en la pantalla</summary>
+  <ol>
+    <li><a href="/ruta-frontend/flexbox">Flexbox: Posicione elementos en la pantalla</a></li>
   </ol>
 </details>

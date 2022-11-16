@@ -1,0 +1,119 @@
+.headerPrincipal .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.headerPrincipal-nav{
+  display: flex;
+  /* align-items: center; */
+  flex-wrap: wrap;
+}
+
+.rodapePrincipal-patrocinadores .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.rodapePrincipal-patrocinadores-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.rodapePrincipal-contatoForm-fieldset{
+  display: flex;
+}
+
+.rodapePrincipal-navMap-list{
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  flex-wrap: wrap;
+}
+
+.contenidoPrincipal-cursos{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contenidoPrincipal-cursos-link{
+  display: flex;
+  width: 23%;
+}
+
+.videoSobre .container{
+  display: flex;
+}
+
+.videoSobre-sobre{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.videoSobre-video{
+  flex-grow: 2;
+}
+
+.videoSobre-sobre-list{
+  flex-grow: 2;
+  flex-shrink: 2;
+}
+
+.videoSobre-sobre-item{
+  list-style: none;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 768px){
+  .headerPrincipal .container{
+    flex-direction: column;
+    align-items: initial;
+    text-align: center;
+  }
+  
+  .headerPrincipal-nav{
+    flex-direction: column;
+  }
+  .contenidoPrincipal-cursos{
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .contenidoPrincipal-cursos-link{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .rodapePrincipal-navMap-list{
+    height: auto;
+    flex-wrap: nowrap;
+  }
+  .rodapePrincipal-patrocinadores .container{
+    flex-direction: column;
+  }
+  .rodapePrincipal-patrocinadores-list{
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    gap: 0;
+  }
+  .rodapePrincipal-contatoForm{
+    width: 100%;
+  }
+  .rodapePrincipal-contatoForm-fieldset{
+    justify-content: center;
+  }
+  .headerPrincipal-nav-link-app{
+    order: -1;
+  }
+  .videoSobre .container{
+    flex-direction: column;
+  }
+}
