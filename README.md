@@ -88,3 +88,9 @@
     <li><a href="/ruta-frontend/css-grid-layout/alura-store">Proyecto</a></li>
   </ol>
 </details>
+<details>
+  <summary>Layouts Responsivos: Trabajando con layouts mobile</summary>
+  <ol>
+    <li><a href="/ruta-frontend/layouts-responsive">Proyecto</a></li>
+  </ol>
+</details>
