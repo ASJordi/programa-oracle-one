@@ -94,3 +94,9 @@
     <li><a href="/ruta-frontend/layouts-responsive">Proyecto</a></li>
   </ol>
 </details>
+<details>
+  <summary>Arquitectura CSS: Descomplicando los problemas</summary>
+  <ol>
+    <li><a href="/ruta-frontend/arquitectura-css">Proyecto</a></li>
+  </ol>
+</details>
