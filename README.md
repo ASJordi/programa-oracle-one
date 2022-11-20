@@ -112,3 +112,9 @@
     <li><a href="/ruta-frontend/js-dom">Proyecto</a></li>
   </ol>
 </details>
+<details>
+  <summary>JS en la Web: Validación de Formularios y HTML5</summary>
+  <ol>
+    <li><a href="/ruta-frontend/js-validacion-forms">Proyecto</a></li>
+  </ol>
+</details>
