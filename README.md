@@ -74,7 +74,7 @@
     <li><a href="/ruta-principiante-programacion/git-github">Proyecto</a></li>
   </ol>
 </details>
-<br>
+
 <h3><strong>Ruta FrontEnd</strong></h3>
 <details>
   <summary>Flexbox: Posicione elementos en la pantalla</summary>
@@ -98,5 +98,17 @@
   <summary>Arquitectura CSS: Descomplicando los problemas</summary>
   <ol>
     <li><a href="/ruta-frontend/arquitectura-css">Proyecto</a></li>
+  </ol>
+</details>
+<details>
+  <summary>JavaScript: primeros pasos con el lenguaje</summary>
+  <ol>
+    <li><a href="/ruta-frontend/js-primeros-pasos">Ejercicios</a></li>
+  </ol>
+</details>
+<details>
+  <summary>JS en la Web: Manipulación del DOM con JavaScript</summary>
+  <ol>
+    <li><a href="/ruta-frontend/js-dom">Proyecto</a></li>
   </ol>
 </details>
