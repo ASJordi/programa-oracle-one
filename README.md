@@ -118,3 +118,9 @@
     <li><a href="/ruta-frontend/js-validacion-forms">Proyecto</a></li>
   </ol>
 </details>
+<details>
+  <summary>JavaScript: Introducción a la Orientación a Objetos</summary>
+  <ol>
+    <li><a href="/ruta-frontend/js-poo">Proyecto</a></li>
+  </ol>
+</details>
