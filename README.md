@@ -124,3 +124,9 @@
     <li><a href="/ruta-frontend/js-poo">Proyecto</a></li>
   </ol>
 </details>
+<details>
+  <summary>JavaScript: Herencia e Interfaces en Orientación a Objetos</summary>
+  <ol>
+    <li><a href="/ruta-frontend/js-herencia-interfaces">Proyecto</a></li>
+  </ol>
+</details>
