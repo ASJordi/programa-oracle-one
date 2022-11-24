@@ -130,3 +130,15 @@
     <li><a href="/ruta-frontend/js-herencia-interfaces">Proyecto</a></li>
   </ol>
 </details>
+<details>
+  <summary>JS en la Web: Almacenando datos en el navegador</summary>
+  <ol>
+    <li><a href="/ruta-frontend/js-storage">Proyecto</a></li>
+  </ol>
+</details>
+<details>
+  <summary>JS en la Web: CRUD con JavaScript asíncrono</summary>
+  <ol>
+    <li><a href="/ruta-frontend/js-crud">Proyecto</a></li>
+  </ol>
+</details>
