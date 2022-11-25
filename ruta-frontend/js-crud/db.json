@@ -1,0 +1,19 @@
+{
+  "perfil": [
+    {
+      "nombre": "Jordi Ayala",
+      "email": "jord7@gmail.com",
+      "id": 1
+    },
+    {
+      "nombre": "Pedro Perez",
+      "email": "pedro@gmail.com",
+      "id": 2
+    },
+    {
+      "nombre": "admin",
+      "email": "admin@gmail.com",
+      "id": "621aad2d-6b57-4677-8d0d-b20170f8bd91"
+    }
+  ]
+}
