@@ -21,6 +21,10 @@ Icon
 # Ignore all local history of files
 .history
 
+# IntelliJ IDEA
+.idea
+out/
+
 # Folders
 Certificados/
 Plantillas/
