@@ -142,3 +142,16 @@
     <li><a href="/ruta-frontend/js-crud">Proyecto</a></li>
   </ol>
 </details>
+<h3><strong>Ruta Java</strong></h3>
+<details>
+  <summary>Java JRE y JDK: compile y ejecute su primer programa</summary>
+  <ol>
+    <li><a href="/ruta-java/fundamentos">Fundamentos</a></li>
+  </ol>
+</details>
+<details>
+  <summary>Java OO: Entendiendo la Orientación a Objetos</summary>
+  <ol>
+    <li><a href="/ruta-java/POO">Proyecto</a></li>
+  </ol>
+</details>
