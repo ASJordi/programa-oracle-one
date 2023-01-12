@@ -155,3 +155,9 @@
     <li><a href="/ruta-java/POO">Proyecto</a></li>
   </ol>
 </details>
+<details>
+  <summary>Java Polimorfismo: Entendiendo herencia e interfaces</summary>
+  <ol>
+    <li><a href="/ruta-java/POO-2">Proyecto</a></li>
+  </ol>
+</details>
