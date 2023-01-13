@@ -161,3 +161,10 @@
     <li><a href="/ruta-java/POO-2">Proyecto</a></li>
   </ol>
 </details>
+<details>
+  <summary>Java Excepciones: Aprenda a crear, lanzar y controlar excepciones</summary>
+  <ol>
+    <li><a href="/ruta-java/excepciones/pila-ejecucion">Proyecto I</a></li>
+    <li><a href="/ruta-java/excepciones/bytebank">Proyecto II</a></li>
+  </ol>
+</details>
