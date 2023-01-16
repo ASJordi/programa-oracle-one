@@ -167,10 +167,17 @@
     <li><a href="/ruta-java/excepciones/pila-ejecucion">Proyecto I</a></li>
     <li><a href="/ruta-java/excepciones/bytebank">Proyecto II</a></li>
   </ol>
-</details><details>
+</details>
+<details>
   <summary>Java y java.lang: Programe con la clase Object y String</summary>
   <ol>
     <li><a href="/ruta-java/java-lang/bytebank">Proyecto I</a></li>
     <li><a href="/ruta-java/java-lang/bytebank-libreria">Proyecto II</a></li>
+  </ol>
+</details>
+<details>
+  <summary>Java y java.util: Colecciones, Wrappers y Lambda expressions</summary>
+  <ol>
+    <li><a href="/ruta-java/java-util/bytebank">Proyecto</a></li>
   </ol>
 </details>
