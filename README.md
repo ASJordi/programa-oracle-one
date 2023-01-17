@@ -181,3 +181,9 @@
     <li><a href="/ruta-java/java-util/bytebank">Proyecto</a></li>
   </ol>
 </details>
+<details>
+  <summary>Java: Dominando las Collections</summary>
+  <ol>
+    <li><a href="/ruta-java/collections/alura">Proyecto</a></li>
+  </ol>
+</details>
