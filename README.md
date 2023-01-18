@@ -187,3 +187,9 @@
     <li><a href="/ruta-java/collections/alura">Proyecto</a></li>
   </ol>
 </details>
+<details>
+  <summary>Introducción a SQL con MySQL: Manipule y consulte datos</summary>
+  <ol>
+    <li><a href="/ruta-java/database">Proyecto</a></li>
+  </ol>
+</details>
