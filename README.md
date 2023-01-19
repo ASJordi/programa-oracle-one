@@ -193,3 +193,9 @@
     <li><a href="/ruta-java/database">Proyecto</a></li>
   </ol>
 </details>
+<details>
+  <summary>Java y JDBC: Trabajando con una Base de Datos</summary>
+  <ol>
+    <li><a href="/ruta-java/db-java/control">Proyecto</a></li>
+  </ol>
+</details>
