@@ -199,3 +199,16 @@
     <li><a href="/ruta-java/db-java/control">Proyecto</a></li>
   </ol>
 </details>
+<h3><strong>Ruta SQL</strong></h3>
+<details>
+  <summary>Introducción a SQL con MySQL: Manipule y consulte datos</summary>
+  <ol>
+    <li><a href="/ruta-sql/introduccion">Proyecto</a></li>
+  </ol>
+</details>
+<details>
+  <summary>Consultas SQL: Avanzando en SQL con MySQL</summary>
+  <ol>
+    <li><a href="/ruta-sql/consultas">Proyecto</a></li>
+  </ol>
+</details>
