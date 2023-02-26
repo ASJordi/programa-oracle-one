@@ -212,3 +212,9 @@
     <li><a href="/ruta-sql/consultas">Proyecto</a></li>
   </ol>
 </details>
+<details>
+  <summary>Comandos DML: Manipulación de datos con MySQL</summary>
+  <ol>
+    <li><a href="/ruta-sql/dml">Proyecto</a></li>
+  </ol>
+</details>
