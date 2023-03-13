@@ -218,3 +218,27 @@
     <li><a href="/ruta-sql/dml">Proyecto</a></li>
   </ol>
 </details>
+<details>
+  <summary>Procedures SQL: Ejecutando código en MySQL</summary>
+  <ol>
+    <li><a href="/ruta-sql/procedures">Proyecto</a></li>
+  </ol>
+</details>
+<details>
+  <summary>SQL con MySQL: Proyecto final</summary>
+  <ol>
+    <li><a href="/ruta-sql/final">Proyecto</a></li>
+  </ol>
+</details>
+<details>
+  <summary>Administración de MySQL: Seguridad y optimización de la base de datos - Parte 1</summary>
+  <ol>
+    <li><a href="/ruta-sql/adm1">Proyecto</a></li>
+  </ol>
+</details>
+<details>
+  <summary>Administración de MySQL: Seguridad y optimización de la base de datos - Parte 2</summary>
+  <ol>
+    <li><a href="/ruta-sql/adm2">Proyecto</a></li>
+  </ol>
+</details>
