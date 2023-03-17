@@ -242,3 +242,10 @@
     <li><a href="/ruta-sql/adm2">Proyecto</a></li>
   </ol>
 </details>
+<h3><strong>Ruta Oracle Cloud</strong></h3>
+<details>
+  <summary>Oracle Cloud Infrastructure</summary>
+  <ol>
+    <li><a href="/ruta-oracle-cloud/proyecto">Proyecto</a></li>
+  </ol>
+</details>
